@@ -1,0 +1,6 @@
+#navbar {
+    position: top;
+    position: fixed;
+    flex-direction: row
+    width: 100%;
+}
