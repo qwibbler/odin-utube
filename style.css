@@ -1,6 +1,9 @@
 #navbar {
     position: top;
     position: fixed;
-    flex-direction: row
-    width: 100%;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
 }
