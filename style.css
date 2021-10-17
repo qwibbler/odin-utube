@@ -1,9 +1,18 @@
 #navbar {
     position: top;
-    position: fixed;
+    /* position: fixed; */
     background-color: bisque;
     width: 100%;
     height: 56px;
+}
+
+#all {
+    /* position: fixed; */
+    margin-top: 10px;
+    /* width: 50%; */
+    align-content: center;
+    display: flex;
+    flex-direction: row;
 }
 
 #left {
@@ -31,6 +40,7 @@
 .previewImg {
     /* height: 94px; */
     /* width: auto; */
+    padding: 5px;
 }
 
 .previewName {
