@@ -1,9 +1,58 @@
 #navbar {
     position: top;
     position: fixed;
+    background-color: bisque;
+    width: 100%;
+    height: 56px;
 }
 
 #left {
     display: flex;
     flex-direction: column;
+    background-color: cadetblue;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+}
+
+.suggestion {
+    display: flex;
+    flex-direction: column;
+}
+
+.preview {
+    display: flex;
+    flex-direction: row;
+}
+
+.previewImg {
+    /* height: 94px; */
+    /* width: auto; */
+}
+
+.previewName {
+    display: flex;
+    flex-direction: column;
+    width: 226px;
+    height: 94px;
+    margin-left: 15px;
+    margin-top: 5px;
+    /* flex-direction: column; */
+}
+
+.previewName > h4 {
+    margin: 0%;
+}
+
+.previewName > a {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.previewName > p {
+    margin-top: 0%;
+    margin-bottom: 5px;
 }
